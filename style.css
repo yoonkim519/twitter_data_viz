@@ -1,0 +1,103 @@
+body {
+ background-color: rgb(38,37,37);
+ font-family: 'Open Sans', sans-serif;
+ margin-top: 50px;
+ margin-left: 50px;
+}
+
+h1 {
+  color: rgb(79,255,138);
+  font-size: 40px;
+
+}
+
+h2{
+  width: 50%;
+  font-weight: 200;
+  color: rgb(79,255,138);
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 55px;
+  font-weigt: 200;
+  color: rgb(255,255,255);
+  font-size: 13px;
+  letter-spacing: 3px;
+
+}
+
+ul{
+  line-height: 2em;
+}
+
+li{
+  list-style : none;
+
+}
+
+.tweetDiv{
+  color: white;
+  margin-top: 20px;
+  width: 400px;
+}
+
+.inputStyle{
+  width: 350px;
+  font-size: 58px;
+  color: white;
+  background-color: rgb(38,37,37);
+  border: none;
+  border-bottom: 2px solid white;
+}
+
+.buttonStyle{
+  font-family: 'Open Sans', sans-serif;
+  width: 150px;
+  font-size: 15px;
+  color: rgb(79,255,138);
+  background: rgb(38,37,37);
+  padding: 30px;
+  border: 3px solid #4CAF50;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttonstyle:hover {
+    background-color:rgb(79,255,138);
+    color: white;
+}
+
+.submitButton {
+  margin-top: 30px;
+}
+
+.floatingDiv {
+  position: absolute;
+  color: white;
+  font-size: 13px;
+  left: 0px;
+  top: 0px;
+  visibility: hidden;
+  z-index: 2147483647;
+}
+
+#floatingTitle{
+  color: rgb(79,255,138);
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+#floatingContent{
+  background-color : rgb(79,255,138);
+  color: rgb(38,37,37);
+  padding : 2px 30px 2px 3px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+
+}
